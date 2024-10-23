@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "TrebuchetMS";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: local("TrebuchetMS"), url("./fonts/trebuchetms.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Alergia";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: local("Alergia"),
+    url("./fonts/AlergiaNormalRegular.woff2") format("woff2");
+}
+a {
+  color: black;
+  text-decoration: none;
+  transition: 1s; /* Время изменения */
+}
+a:hover {
+  color: #41b883;
+  text-decoration: none;
+}
+
+.v-skeleton-loader__bone .v-skeleton-loader__button {
+  height: 30px;
+}
+
+.v-toolbar-title__placeholder {
+  overflow: visible !important;
+}
+
+.text-base {
+  font-size: 1rem !important; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+
+.v-input__details {
+  display: none !important;
+}
+.v-number-input * {
+  --v-input-control-height: 32px !important;
+  --v-input-control-width: 400px !important;
+  --v-input-padding-top: 0px !important;
+  --v-field-input-padding-bottom: 0px !important;
+  --v-field-padding-bottom: 0px !important;
+}
+.v-number-input__control button {
+  width: 40px !important;
+}
+
+.v-number-input__control button i {
+  font-size: 1.1rem;
+}
+
+/* In your main.css or scoped styles */
+.no-hover-effect {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+del {
+  font-size: 10px;
+  position: relative;
+  opacity: 0.6;
+  text-decoration: none;
+}
+del:before {
+  content: "";
+  border-bottom: 2px solid #e53935;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-12deg);
+}
