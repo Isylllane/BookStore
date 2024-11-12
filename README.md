@@ -4,6 +4,7 @@ A bookstore app built with Vue 3 (Composition API), Vite and Vuetify.
 
 - Add, remove and edit books
 - Save data to JSON-Server
+- Add and remove books to cart in local storage using Pinia
 - API Json-server for mock backend
 - <script setup> syntax (Vue 3.2+)
 
