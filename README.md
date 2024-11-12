@@ -1,6 +1,20 @@
-# vue-Book-Store
+# Book-Store
 
-This template should help get you started developing with Vue 3 in Vite.
+A bookstore app built with Vue 3 (Composition API), Vite and Vuetify.
+
+- Add, remove and edit books
+- Save data to JSON-Server
+- API Json-server for mock backend
+- <script setup> syntax (Vue 3.2+)
+
+## Technology stack:
+
+- Vue 3
+- Vue Router
+- Vuetify
+- Axios
+- Pinia
+- Composition API
 
 ## Recommended IDE Setup
 
